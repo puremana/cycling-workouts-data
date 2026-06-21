@@ -1,0 +1,20 @@
+{
+  "name": "cycling-workouts-data",
+  "version": "0.1.0",
+  "description": "Structured cycling workout library (data + segment derivation logic).",
+  "type": "module",
+  "main": "index.js",
+  "exports": {
+    ".": "./index.js"
+  },
+  "files": [
+    "index.js",
+    "src"
+  ],
+  "sideEffects": false,
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/puremana/cycling-workouts-data.git"
+  },
+  "license": "MIT"
+}
