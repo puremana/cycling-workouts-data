@@ -330,4 +330,26 @@ export const middle = [
       cd(600),
     ],
   },
+  {
+    id: 'mid-15',
+    headline: '4 x 10 min @ FTP',
+    title: 'Threshold 4x10',
+    category: 'middle',
+    subcategory: 'threshold',
+    level: 'advanced',
+    tss: 105,
+    description: 'Four ten-minute efforts right at FTP — a big, classic dose of time at threshold to lift sustainable power.',
+    steps: [
+      '18 min warm-up: 8 min Zone 1, 5 min progressive tempo, 5 min Zone 1',
+      '4 x 10 min @ 100% FTP, 5 min easy between',
+      '10 min cool-down',
+    ],
+    intervals: [
+      { d: 480, p: 0.5 },
+      { kind: 'ramp', d: 300, p: [0.65, 0.85] },
+      { kind: 'rest', d: 300, p: 0.5 },
+      { repeat: 4, on: { d: 600, p: 1.0 }, off: { d: 300, p: 0.5 } },
+      cd(600),
+    ],
+  },
 ]
