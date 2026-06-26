@@ -239,7 +239,7 @@ export const middle = [
     category: 'middle',
     subcategory: 'threshold',
     level: 'advanced',
-    tss: 120,
+    tss: 90,
     description: 'A long threshold session with ten four-minute LT2 reps and one-minute recoveries, built around a steady aerobic warm-up.',
     steps: [
       '8 min warm-up in Zone 1',

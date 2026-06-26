@@ -145,7 +145,7 @@ export const endurance = [
     category: 'endurance',
     subcategory: 'lt1',
     level: 'advanced',
-    tss: 145,
+    tss: 110,
     description: 'Four sustained LT1 blocks with short recoveries to build durable aerobic power.',
     steps: [
       '12 min warm-up',
