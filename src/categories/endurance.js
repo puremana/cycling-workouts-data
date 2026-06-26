@@ -138,4 +138,24 @@ export const endurance = [
       cd(600),
     ],
   },
+  {
+    id: 'end-9',
+    headline: '4 x 20 min @ LT1',
+    title: 'LT1 Four-Twenty',
+    category: 'endurance',
+    subcategory: 'lt1',
+    level: 'advanced',
+    tss: 145,
+    description: 'Four sustained LT1 blocks with short recoveries to build durable aerobic power.',
+    steps: [
+      '12 min warm-up',
+      '4 x 20 min @ LT1 (~78% FTP), 5 min easy between',
+      '8 min cool-down',
+    ],
+    intervals: [
+      wu(720),
+      { repeat: 4, on: { d: 1200, p: 0.78 }, off: { d: 300, p: 0.6 } },
+      cd(480),
+    ],
+  },
 ]
