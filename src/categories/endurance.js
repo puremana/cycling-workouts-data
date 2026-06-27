@@ -69,7 +69,7 @@ export const endurance = [
     title: 'LT1 Sustained Ride',
     category: 'endurance',
     subcategory: 'lt1',
-    level: 'advanced',
+    level: 'intermediate',
     tss: 90,
     description: 'Long blocks right at the aerobic threshold (LT1) to lift fat-max power.',
     steps: [
