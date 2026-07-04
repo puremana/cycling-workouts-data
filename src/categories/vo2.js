@@ -300,7 +300,7 @@ export const vo2 = [
     level: 'advanced',
     tss: 85,
     description:
-      'Eight two-minute VO2 efforts with four-minute recoveries. These should be very hard — close to a session max, but not so hard that you blow up like a one-off effort. Aim for an 8–9 RPE on the first rep and then match that power for the rest of the set.',
+      'Eight two-minute VO2 efforts with four-minute recoveries. These should be very hard — close to a session max, but not so hard that you blow up like a one-off effort. Aim for an 8–9 RPE on the first rep and then match that power for the rest of the set (similar to 95% of your max 5 min power).',
     steps: [
       '15 min warm-up with openers',
       '8 x 2 min @ 130% FTP (first rep 8–9 RPE, then hold that power), 4 min easy between',
@@ -321,7 +321,7 @@ export const vo2 = [
     level: 'advanced',
     tss: 90,
     description:
-      'Three five-minute VO2 efforts with long eight-minute recoveries. These should be very hard — close to a session max, but not so hard that you blow up like a one-off effort. Aim for an 8–9 RPE on the first rep and then match that power for the rest of the set.',
+      'Three five-minute VO2 efforts with long eight-minute recoveries. These should be very hard — close to a session max, but not so hard that you blow up like a one-off effort. Aim for an 8–9 RPE on the first rep and then match that power for the rest of the set (similar to 95% of your max 5 min power).',
     steps: [
       '15 min warm-up with openers',
       '3 x 5 min @ 130% FTP (first rep 8–9 RPE, then hold that power), 8 min easy between',
