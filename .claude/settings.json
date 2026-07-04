@@ -1,7 +1,8 @@
 {
   "permissions": {
     "allow": [
-      "WebSearch"
+      "WebSearch",
+      "Read(//c/Users/purem/.claude/projects/c--Users-purem-OneDrive-Desktop-projects-cycling-workouts-data/memory/**)"
     ]
   }
 }

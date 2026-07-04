@@ -291,4 +291,46 @@ export const vo2 = [
       cd(600),
     ],
   },
+  {
+    id: 'vo2-13',
+    headline: '8 x 2 min @ 130% FTP',
+    title: 'VO2 8x2 (Session Max)',
+    category: 'vo2',
+    subcategory: 'short',
+    level: 'advanced',
+    tss: 85,
+    description:
+      'Eight two-minute VO2 efforts with four-minute recoveries. These should be very hard — close to a session max, but not so hard that you blow up like a one-off effort. Aim for an 8–9 RPE on the first rep and then match that power for the rest of the set.',
+    steps: [
+      '15 min warm-up with openers',
+      '8 x 2 min @ 130% FTP (first rep 8–9 RPE, then hold that power), 4 min easy between',
+      '8 min cool-down',
+    ],
+    intervals: [
+      wu(900, 0.4, 0.65),
+      { repeat: 8, on: { d: 120, p: 1.3 }, off: { d: 240, p: 0.5 } },
+      cd(480),
+    ],
+  },
+  {
+    id: 'vo2-14',
+    headline: '3 x 5 min @ 130% FTP',
+    title: 'VO2 3x5 (Session Max)',
+    category: 'vo2',
+    subcategory: 'long',
+    level: 'advanced',
+    tss: 90,
+    description:
+      'Three five-minute VO2 efforts with long eight-minute recoveries. These should be very hard — close to a session max, but not so hard that you blow up like a one-off effort. Aim for an 8–9 RPE on the first rep and then match that power for the rest of the set.',
+    steps: [
+      '15 min warm-up with openers',
+      '3 x 5 min @ 130% FTP (first rep 8–9 RPE, then hold that power), 8 min easy between',
+      '8 min cool-down',
+    ],
+    intervals: [
+      wu(900, 0.4, 0.65),
+      { repeat: 3, on: { d: 300, p: 1.3 }, off: { d: 480, p: 0.5 } },
+      cd(480),
+    ],
+  },
 ]
